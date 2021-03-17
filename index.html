@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boootstrap booting</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <style>
+        h1{
+            margin-top: 100px;
+        }
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <h1>Hello from bootstrap</h1>
+    <h1>Button</h1>
+    <button class="btn btn-primary">My button</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <h1>Colors</h1>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning bg-dark">.text-warning</p>
+    <p class="text-info bg-dark">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-body">.text-body</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-white bg-dark">.text-white</p>
+    <p class="text-black-50">.text-black-50</p>
+    <p class="text-white-50 bg-dark">.text-white-50</p>
+        <h1>Background color</h1>
+        <div class="p-3 mb-2 bg-primary text-white">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut culpa vitae quam eveniet itaque numquam ab fugit modi, magnam nobis eligendi debitis repudiandae quae, ut nemo velit reprehenderit, nisi eos sunt. Atque suscipit quasi aut repellendus omnis quaerat adipisci eius assumenda! Facilis facere quibusdam earum! Ea suscipit illum cupiditate vitae deleniti. Qui, tenetur cum facilis facere cupiditate nisi illo quod explicabo, maxime necessitatibus, cumque optio dolorum consequatur iure! Sed quas sunt ipsa nam veniam corporis nesciunt sint, earum iusto porro doloremque, praesentium nobis tenetur ullam iure numquam recusandae amet, commodi id eum quaerat impedit adipisci asperiores debitis! Inventore, consectetur quibusdam, enim ea sequi soluta voluptate cum officia omnis beatae dicta! Porro quidem quo neque aliquid modi consectetur minima molestias sequi suscipit aliquam pariatur beatae a aperiam fugiat culpa corrupti iste dolorum ducimus id ipsa, ipsam alias? Nostrum a, ipsum quae doloremque ab impedit consequuntur provident deleniti, tempora cupiditate amet enim.</p>
+        </div>  
+        <h1>Images</h1>
+        <img class="img-fluid" src="images/imamul.jpg" alt="">
+
+
+
+        <h1>Card</h1>
+        <div class="card" style="width: 18rem;">
+            <img src="images/imamul.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">I'm Imamul Hasan</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">My account</a>
+            </div>
+          </div>
+          <h1>Nvigation</h1>
+                <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+        </ul>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
+
 </body>
 </html>
